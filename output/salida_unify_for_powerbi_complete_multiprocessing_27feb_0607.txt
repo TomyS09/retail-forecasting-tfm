@@ -1,0 +1,193 @@
+python .\src\unify_for_powerbi_complete_multiprocessing.py
+======================================================================
+🎯 UNIFICACIÓN ULTRA RÁPIDA PARA POWER BI
+======================================================================
+⚡ Con recuperación paralela de archivos corruptos
+======================================================================
+
+🖥️  Hardware detectado: 4 núcleos
+📂 Directorio temporal: dashboard/data/temp_processing
+
+======================================================================
+🚀 EXPORTACIÓN ULTRA RÁPIDA PARA POWER BI
+======================================================================
+📅 2026-02-27 05:31:08
+⚡ Modo: Ultra rápido + Recuperación paralela
+
+📊 Panel 1: Exportando datos predictivos (ultra rápido)...
+  ✓ panel1_metrics_summary.csv: 3 modelos
+  ✓ panel1_metrics_detailed.csv: 12,617,520 registros
+  📦 Procesando inventario: 4.19 GB
+
+  📦 Dividiendo simulacion_inventario_completa.parquet modo ultra rápido...
+
+  ⚡ Recuperando simulacion_inventario_completa.parquet en paralelo...      
+  • Total row groups: 868
+  • Usando 4 procesos en paralelo
+    • Progreso: 1/4 procesos completados
+    • Progreso: 2/4 procesos completados
+    • Progreso: 3/4 procesos completados
+    • Progreso: 4/4 procesos completados
+  ✓ Recuperados 868 chunks válidos
+
+  ⚡ Procesando predicciones con 4 workers...
+    • Batch 1: 20 archivos
+    • Batch 2: 40 archivos
+    • Batch 3: 60 archivos
+    • Batch 4: 80 archivos
+    • Batch 5: 100 archivos
+    • Batch 6: 120 archivos
+    • Batch 7: 140 archivos
+    • Batch 8: 160 archivos
+    • Batch 9: 180 archivos
+    • Batch 10: 200 archivos
+    • Batch 11: 220 archivos
+    • Batch 12: 240 archivos
+    • Batch 13: 260 archivos
+    • Batch 14: 280 archivos
+    • Batch 15: 300 archivos
+    • Batch 16: 320 archivos
+    • Batch 17: 340 archivos
+    • Batch 18: 360 archivos
+    • Batch 19: 380 archivos
+    • Batch 20: 400 archivos
+    • Batch 21: 420 archivos
+    • Batch 22: 440 archivos
+    • Batch 23: 460 archivos
+    • Batch 24: 480 archivos
+    • Batch 25: 500 archivos
+    • Batch 26: 520 archivos
+    • Batch 27: 540 archivos
+    • Batch 28: 560 archivos
+    • Batch 29: 580 archivos
+    • Batch 30: 600 archivos
+    • Batch 31: 620 archivos
+    • Batch 32: 640 archivos
+    • Batch 33: 660 archivos
+    • Batch 34: 680 archivos
+    • Batch 35: 700 archivos
+    • Batch 36: 720 archivos
+    • Batch 37: 740 archivos
+    • Batch 38: 760 archivos
+    • Batch 39: 780 archivos
+    • Batch 40: 800 archivos
+    • Batch 41: 820 archivos
+    • Batch 42: 840 archivos
+    • Batch 43: 860 archivos
+    • Batch 44: 868 archivos
+    ✓ Procesados 1,733,888,256 registros en 19788 archivos
+
+  🔗 Combinando predicciones...
+    • Leídos 5/19788 archivos
+    • Leídos 10/19788 archivos
+    ✓ Archivo combinado: 0.05 GB
+  ✓ panel1_predictions.csv: 4,000,000 registros (muestra)
+
+📦 Panel 2: Exportando datos de inventario (ultra rápido)...
+  📦 Procesando inventario: 4.19 GB
+
+  📦 Dividiendo simulacion_inventario_completa.parquet modo ultra rápido...
+
+  ⚡ Recuperando simulacion_inventario_completa.parquet en paralelo...
+  • Total row groups: 868
+  • Usando 4 procesos en paralelo
+    • Progreso: 1/4 procesos completados
+    • Progreso: 2/4 procesos completados
+    • Progreso: 3/4 procesos completados
+    • Progreso: 4/4 procesos completados
+  ✓ Recuperados 868 chunks válidos
+
+  ⚡ Procesando inventario_kpis con 4 workers...
+    • Batch 1: 20 archivos
+    • Batch 2: 40 archivos
+    • Batch 3: 60 archivos
+    • Batch 4: 80 archivos
+    • Batch 5: 100 archivos
+    • Batch 6: 120 archivos
+    • Batch 7: 140 archivos
+    • Batch 8: 160 archivos
+    • Batch 9: 180 archivos
+    • Batch 10: 200 archivos
+    • Batch 11: 220 archivos
+    • Batch 12: 240 archivos
+    • Batch 13: 260 archivos
+    • Batch 14: 280 archivos
+    • Batch 15: 300 archivos
+    • Batch 16: 320 archivos
+    • Batch 17: 340 archivos
+    • Batch 18: 360 archivos
+    • Batch 19: 380 archivos
+    • Batch 20: 400 archivos
+    • Batch 21: 420 archivos
+    • Batch 22: 440 archivos
+    • Batch 23: 460 archivos
+    • Batch 24: 480 archivos
+    • Batch 25: 500 archivos
+    • Batch 26: 520 archivos
+    • Batch 27: 540 archivos
+    • Batch 28: 560 archivos
+    • Batch 29: 580 archivos
+    • Batch 30: 600 archivos
+    • Batch 31: 620 archivos
+    • Batch 32: 640 archivos
+    • Batch 33: 660 archivos
+    • Batch 34: 680 archivos
+    • Batch 35: 700 archivos
+    • Batch 36: 720 archivos
+    • Batch 37: 740 archivos
+    • Batch 38: 760 archivos
+    • Batch 39: 780 archivos
+    • Batch 40: 800 archivos
+    • Batch 41: 820 archivos
+    • Batch 42: 840 archivos
+    • Batch 43: 860 archivos
+    • Batch 44: 868 archivos
+    ✓ Procesados 433,472,064 registros en 19788 archivos
+
+  🔗 Combinando KPIs inventario...
+    • Leídos 5/19788 archivos
+    • Leídos 10/19788 archivos
+    ✓ Archivo combinado: 0.08 GB
+  ✓ panel2_inventory_kpis.csv: 1,000,000 registros (muestra)
+  📦 Órdenes: 19,815,098 registros
+  ✓ panel2_replenishment_summary.csv: 475 tiendas
+  ✓ panel2_inventory_metrics.csv: 2,741,027 registros
+
+💾 Creando base de datos SQLite...
+
+  📦 Cargando dimensiones...
+  ✓ dim_productos: 12,537 registros
+  ✓ dim_tiendas: 1,245 registros
+  ✓ dim_fechas: 104 registros
+  ✓ dim_modelos: 4 registros
+  ✓ dim_tiendas: 1,245 registros
+  ✓ dim_fechas: 104 registros
+  ✓ dim_modelos: 4 registros
+  ✓ dim_fechas: 104 registros
+  ✓ dim_modelos: 4 registros
+  ✓ dim_modelos: 4 registros
+
+  📋 Cargando tablas de paneles...
+
+  📋 Cargando tablas de paneles...
+  ✓ panel1_metrics_summary: 3 registros
+  ✓ panel1_metrics_detailed: 12,617,520 registros
+  ✓ panel1_metrics_summary: 3 registros
+  ✓ panel1_metrics_detailed: 12,617,520 registros
+  ✓ panel1_metrics_detailed: 12,617,520 registros
+  ✓ panel1_predictions: 20,000,000 registros
+  ✓ panel2_inventory_kpis: 5,000,000 registros
+  ✓ panel2_replenishment_orders: 19,815,098 registros
+  ✓ panel2_replenishment_summary: 475 registros
+  ✓ panel2_inventory_metrics: 2,741,027 registros
+
+  ✅ Base de datos SQLite creada: 5.10 GB
+
+🧹 Limpiando archivos temporales...
+  ✓ Directorio temporal eliminado
+
+⏱️  Tiempo total: 2175.80 segundos (36.26 minutos)
+
+======================================================================
+✅ EXPORTACIÓN COMPLETADA
+======================================================================

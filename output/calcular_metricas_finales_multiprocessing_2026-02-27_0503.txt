@@ -1,0 +1,869 @@
+python .\src\calcular_metricas_finales_multiprocessing.py
+================================================================================
+📊 CÁLCULO DE MÉTRICAS FINALES DE INVENTARIO
+================================================================================
+Fecha: 2026-02-27 04:30:21 
+Núcleos disponibles: 4
+Directorio temporal: data/inventory/tmp
+
+📦 Cargando catálogo de productos...
+   • 12537 productos en catálogo
+
+📂 Archivo de inventario:
+   • Registros: 433,472,064
+   • Row groups: 868       
+   • Tamaño: 4.19 GB
+
+🔍 Verificando checkpoints existentes...
+   • 389 row groups ya procesados
+   • 479 row groups por procesar
+
+🚀 Procesando 479 row groups con 4 workers...
+
+   [████████████████████████████████████████] 868/868 (100.0%) | 0.6 rg/s | 1,513 reg/s | ETA: 00:00:00
+
+   ✅ Procesamiento completado
+
+🔄 Combinando archivos temporales...
+   • Encontrados 868 archivos temporales
+
+   ⚠️ Error procesando temp_000069.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000071.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000072.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000073.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000074.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000075.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000076.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000084.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000085.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000086.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000087.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000090.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+   • Procesando archivo 100/868... (418691 SKUs únicos)
+   ⚠️ Error procesando temp_000108.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000109.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000110.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000111.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000112.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000113.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000114.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000125.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000126.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000127.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000128.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000129.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000130.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000131.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000132.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000144.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000145.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000146.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000147.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000148.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000149.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000169.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000170.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000171.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000172.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000173.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000174.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000175.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000176.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000177.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000178.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000179.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000180.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000181.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000182.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000183.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000184.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000185.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000186.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000187.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000188.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000189.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000190.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000191.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000192.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000193.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000194.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000195.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000196.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000197.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000198.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+   • Procesando archivo 200/868... (645022 SKUs únicos)
+   ⚠️ Error procesando temp_000199.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000200.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000201.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000202.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000203.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000204.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000205.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000206.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000207.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000208.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000209.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000210.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000211.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000212.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000213.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000214.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000215.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000216.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000217.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000218.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000219.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000220.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000221.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000222.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000223.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000224.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000225.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000226.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000227.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000228.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000229.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000230.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000231.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000232.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000233.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000234.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000235.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000236.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000237.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000238.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000239.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000240.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000241.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000242.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000243.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000244.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000245.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000246.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000247.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000248.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000249.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000250.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000251.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000252.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000253.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000254.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000255.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000256.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000257.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000258.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000259.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000260.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000261.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000262.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000263.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000264.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000265.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000266.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000267.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000268.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000269.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000270.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000271.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000272.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000273.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000274.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000275.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000276.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000277.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000278.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000279.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000280.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000281.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000282.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000283.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000284.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000285.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000286.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000287.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000288.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000289.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000290.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000291.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000292.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000293.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000294.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000295.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000296.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000297.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000298.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+   • Procesando archivo 300/868... (645022 SKUs únicos)
+   ⚠️ Error procesando temp_000299.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000300.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000301.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000302.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000303.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000304.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000305.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000306.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000307.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000308.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000309.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000310.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000311.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000312.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000313.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000314.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000315.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000316.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000317.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000318.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000319.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000320.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000321.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000322.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000323.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000324.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000325.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000326.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000327.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000328.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000329.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000330.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000331.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000332.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000333.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000334.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000335.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000336.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000337.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000338.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000339.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000340.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000341.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000342.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000343.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000344.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000345.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000346.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000347.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000348.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000349.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000350.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000351.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000352.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000353.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000354.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000355.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000356.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000357.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000358.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000359.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000360.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000361.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000362.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000363.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000364.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000365.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000366.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000367.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000368.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000369.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000370.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000371.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000372.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000373.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000374.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000375.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000376.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000377.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000378.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000379.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000380.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000381.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000382.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000383.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000384.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000385.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000386.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000387.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+
+   ⚠️ Error procesando temp_000388.parquet: Could not open Parquet input source '<Buffer>': Parquet magic bytes not found in footer. Either the file is cor
+rupted or this is not a parquet file.
+   • Procesando archivo 800/868... (2452750 SKUs únicos)
+✅ Combinados 2,741,027 SKUs únicos
+   • Total registros combinados: 3,017,214
+
+📊 Calculando métricas por SKU...
+   • Procesando SKU 2740000/2741027...
+✅ Métricas calculadas para 2,741,027 SKUs
+
+📦 Analizando órdenes de reposición...
+   • Total órdenes: 19,815,098
+   • Cantidad promedio: 210.5 uds
+
+================================================================================
+📋 TABLA DE INDICADORES GLOBALES
+================================================================================
+
+   INDICADOR                                      VALOR
+--------------------------------------------------------------------------------
+   📊 NIVEL DE SERVICIO (Silver et al., 2016)
+      • Nivel de Servicio Global                 20.16%
+      • Tasa de Stockout Global                  76.80%
+      • SKUs con stockout                         2,740,903 de 2,741,027 (100.0%)
+
+   📈 ROTACIÓN E INVENTARIO (Chopra & Meindl, 2019)
+      • Rotación Anualizada Promedio              26.58 veces/año
+      • Días de Inventario Promedio               2.7 días
+      • Inventario Promedio Valor                  $423.25 por SKU
+
+   💰 COSTOS DE INVENTARIO
+      • Costo Total Holding                        $572,023,578.20
+      • Costo Total Stockout                        $596,965,954,415.17
+      • COSTO TOTAL INVENTARIO                      $597,537,977,993.37
+
+   💰 COSTOS DE INVENTARIO
+      • Costo Total Holding                        $572,023,578.20
+      • Costo Total Stockout                        $596,965,954,415.17
+      • COSTO TOTAL INVENTARIO                      $597,537,977,993.37
+   💰 COSTOS DE INVENTARIO
+      • Costo Total Holding                        $572,023,578.20
+      • Costo Total Stockout                        $596,965,954,415.17
+      • COSTO TOTAL INVENTARIO                      $597,537,977,993.37
+      • Costo Total Holding                        $572,023,578.20
+      • Costo Total Stockout                        $596,965,954,415.17
+      • COSTO TOTAL INVENTARIO                      $597,537,977,993.37
+      • Costo Total Stockout                        $596,965,954,415.17
+      • COSTO TOTAL INVENTARIO                      $597,537,977,993.37
+
+      • COSTO TOTAL INVENTARIO                      $597,537,977,993.37
+
+   📦 DEMANDA Y ÓRDENES
+
+   📦 DEMANDA Y ÓRDENES
+      • Demanda Total                               9,822,371,815 uds
+   📦 DEMANDA Y ÓRDENES
+      • Demanda Total                               9,822,371,815 uds
+      • Unidades Vendidas                           1,980,612,910 uds
+      • Demanda Total                               9,822,371,815 uds
+      • Unidades Vendidas                           1,980,612,910 uds
+      • Unidades Perdidas                           7,543,258,920 uds
+      • Unidades Vendidas                           1,980,612,910 uds
+      • Unidades Perdidas                           7,543,258,920 uds
+      • Total Órdenes Generadas                     19,815,098
+      • Unidades Perdidas                           7,543,258,920 uds
+      • Total Órdenes Generadas                     19,815,098
+
+      • Total Órdenes Generadas                     19,815,098
+
+
+
+
+💾 Guardando resultados...
+
+✅ Archivos guardados en data/inventory/:
+   • metricas_sku_finales.parquet (2,741,027 SKUs)
+   • metricas_sku_finales.csv
+   • metricas_agregadas_finales.csv
+
+¿Eliminar archivos temporales? (s/N): s
+   ✅ 868 archivos temporales eliminados
+
+✅ PROCESO COMPLETADO
+📅 2026-02-27 05:03:02
